@@ -11,6 +11,12 @@ Awesome Developers Guide
 - [Security](https://github.com/a7madev/awesome-dev/wiki/Security)
 - [Linux](https://github.com/a7madev/awesome-dev/wiki/Linux)
 
+## Resources
+- [Android](https://github.com/a7madev/awesome-dev/blob/master/Android.md)
+- [WordPress](https://github.com/a7madev/awesome-dev/blob/master/WordPress.md)
+- [PHP](https://github.com/a7madev/awesome-dev/blob/master/PHP.md)
+- [Laravel](https://github.com/a7madev/awesome-dev/blob/master/Laravel.md)
+
 ## Snippets
 - [Laravel and Lumen](https://github.com/a7madev/awesome-dev/blob/master/Laravel)
 - [Android](https://github.com/a7madev/awesome-dev/blob/master/Android)
