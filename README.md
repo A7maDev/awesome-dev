@@ -7,9 +7,9 @@ Awesome Developers Guide
 - [Android](https://github.com/a7madev/awesome-dev/wiki/Android)
 
 ## Snippets
-- [Laravel and Lumen](https://github.com/a7madev/awesome-dev/blob/master/Laravel.md)
-- [Android](https://github.com/a7madev/awesome-dev/blob/master/Android.md)
-- [PHP](https://github.com/a7madev/awesome-dev/blob/master/PHP.md)
+- [Laravel and Lumen](https://github.com/a7madev/awesome-dev/blob/master/Laravel)
+- [Android](https://github.com/a7madev/awesome-dev/blob/master/Android)
+- [PHP](https://github.com/a7madev/awesome-dev/blob/master/PHP)
 
 ## Others
 - [Curated list of awesome lists](https://github.com/sindresorhus/awesome)
