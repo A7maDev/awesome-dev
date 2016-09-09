@@ -10,7 +10,7 @@ Awesome Developers Guide
 - [Windows](https://github.com/a7madev/awesome-dev/wiki/Windows)
 - [Security](https://github.com/a7madev/awesome-dev/wiki/Security)
 - [Linux](https://github.com/a7madev/awesome-dev/wiki/Linux)
-- 
+
 ## Snippets
 - [Laravel and Lumen](https://github.com/a7madev/awesome-dev/blob/master/Laravel)
 - [Android](https://github.com/a7madev/awesome-dev/blob/master/Android)
