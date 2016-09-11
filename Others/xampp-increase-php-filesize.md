@@ -13,3 +13,7 @@ post_max_size = 100M
 ```
 
 - Save and restart Apache from the control panel
+
+
+## Sources
+- [XAMPP I cannot upload big dump files (memory, HTTP or timeout problems)](http://localhost/phpmyadmin/doc/html/faq.html#faq1-16)
