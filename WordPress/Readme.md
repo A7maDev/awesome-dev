@@ -4,4 +4,4 @@
 - [Custom Shortcode](https://github.com/a7madev/awesome-dev/blob/master/WordPress/wp-custom-shortcode.php)
 - [Redirect after login](https://github.com/a7madev/awesome-dev/blob/master/WordPress/wp-redirect-after-login.php)
 - [Disable Admin Bar](https://github.com/a7madev/awesome-dev/blob/master/WordPress/wp-disable-admin-bar.php)
-- [Custom Login Pae](https://github.com/a7madev/awesome-dev/blob/master/WordPress/wp-custom-login-page.html)
+- [Custom Login Page](https://github.com/a7madev/awesome-dev/blob/master/WordPress/wp-custom-login-page.html)
