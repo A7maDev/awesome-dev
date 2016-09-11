@@ -1,0 +1,22 @@
+<form name="loginform" id="loginform" action="<?php echo esc_url( home_url( '/wp-login.php' )); ?>" method="post">
+  <div class="form-group has-feedback">
+      <input name="log" type="email" required="required" class="form-control" placeholder="Email">
+      <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+  </div>
+  <div class="form-group has-feedback">
+      <input name="pwd" required="required" type="password" class="form-control" placeholder="Password">
+      <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+  </div>
+  <div class="row">
+      <div class="col-xs-8">
+          <div class="checkbox icheck">
+              <label><input name="rememberme" type="checkbox" id="rememberme" value="forever"> Remember Me</label>
+          </div>
+      </div>
+      <!-- /.col -->
+      <div class="col-xs-4">
+          <button name="wp-submit" id="client-login-submit" type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+      </div>
+      <!-- /.col -->
+  </div>
+  </form>
