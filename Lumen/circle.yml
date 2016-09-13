@@ -1,11 +1,14 @@
 machine:
-  php:
-    version: 5.6
   timezone:
     Asia/Bahrain
 
 dependencies:
   override:
   - composer install --no-interaction
-  - vendor\bin\security-checker security:check
-  - phpunit
+  - vendor/bin/security-checker security:check
+  #- phpunit
+
+  cache_directories:
+      - ~/.composer/cache
+      - node_modules
+      - vendor
