@@ -12,11 +12,12 @@ machine:
     environment:
         ANDROID_HOME: /usr/local/android-sdk-linux
 
-
 dependencies:
     pre:
-        # Android SDK
-        - if [ ! -d "/usr/local/android-sdk-linux/tools/" ]; then echo y | android update sdk --no-ui --all --filter "tools,platform-tools,extra-google-m2repository,extra-google-google_play_services,extra-android-support"; fi
+        # Android SDK Platform Tools
+        - if [ ! -d "/usr/local/android-sdk-linux/platform-tools/" ]; then echo y | android update sdk --no-ui --all --filter "platform-tools"; fi
+        # Android SDK Tools
+        - if [ ! -d "/usr/local/android-sdk-linux/tools/" ]; then echo y | android update sdk --no-ui --all --filter "tools"; fi
         # Android SDK Platform 23
         - if [ ! -d "/usr/local/android-sdk-linux/platforms/android-23" ]; then echo y | android update sdk --no-ui --all --filter "android-23"; fi
         # Android SDK Build-tools, revision 23.0.3
@@ -25,15 +26,16 @@ dependencies:
         - if [ ! -d "/usr/local/android-sdk-linux/platforms/android-24" ]; then echo y | android update sdk --no-ui --all --filter "android-24"; fi
         # Android SDK Build-tools, revision 24.0.1
         - if [ ! -d "/usr/local/android-sdk-linux/build-tools/24.0.1" ]; then echo y | android update sdk --no-ui --all --filter "build-tools-24.0.1"; fi
-        # Android Support Repository / Local Maven repository for Support Libraries
-        - if [ ! -d "/usr/local/android-sdk-linux/extras/android/m2repository/com/android/support/design/24.2.0" ]; then echo y | android update sdk --no-ui --all --filter "extra-android-m2repository"; fi
+        # Android SDK - Others
+        - echo y | android update sdk --no-ui --all --filter extra-google-m2repository,extra-google-google_play_services,extra-android-support
 
     cache_directories:
         - /usr/local/android-sdk-linux/tools
+        - /usr/local/android-sdk-linux/platform-tools
         - /usr/local/android-sdk-linux/build-tools/23.0.3
         - /usr/local/android-sdk-linux/platforms/android-24
         - /usr/local/android-sdk-linux/build-tools/24.0.1
-        - /usr/local/android-sdk-linux/extras/android/m2repository
+        - /usr/local/android-sdk-linux/extras/
 
 test:
     override:
