@@ -35,7 +35,6 @@ dependencies:
         - /usr/local/android-sdk-linux/build-tools/23.0.3
         - /usr/local/android-sdk-linux/platforms/android-24
         - /usr/local/android-sdk-linux/build-tools/24.0.1
-        - /usr/local/android-sdk-linux/extras/
 
 test:
     override:
