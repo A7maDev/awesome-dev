@@ -4,11 +4,11 @@ machine:
 
 dependencies:
   override:
-  - composer install --no-interaction
-  - vendor/bin/security-checker security:check
-  #- phpunit
+    - composer install --no-interaction
+    - vendor/bin/security-checker security:check
+    #- phpunit
 
   cache_directories:
-      - ~/.composer/cache
-      - node_modules
-      - vendor
+    - ~/.composer/cache
+    - node_modules
+    - vendor
