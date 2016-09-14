@@ -14,6 +14,8 @@ machine:
 
 dependencies:
     pre:
+        # Execute permission for gradle
+        - chmod +x gradlew
         # Android SDK Platform Tools
         - if [ ! -d "/usr/local/android-sdk-linux/platform-tools/" ]; then echo y | android update sdk --no-ui --all --filter "platform-tools"; fi
         # Android SDK Tools
