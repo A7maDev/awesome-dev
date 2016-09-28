@@ -1,6 +1,4 @@
-# Laravel
-
-## Migration
+# Migration
 
 - Create new table
 ```
